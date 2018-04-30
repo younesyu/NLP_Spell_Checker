@@ -101,6 +101,7 @@ int OSA_distance (char *a, char *b) {
 int main (int argc, char* argv[]) {
 	char *string1 = (char *) argv[1];
 	char *string2 = (char *) argv[2];
+
 	printf("Mot1\tMot2\tDistance de Levenshtein\n");
 	printf("%s\t%s\t%d\n\n\n", string1, string2, OSA_distance(string1, string2));
 }
